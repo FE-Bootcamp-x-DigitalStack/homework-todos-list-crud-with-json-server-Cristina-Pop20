@@ -3,7 +3,7 @@
     {
       "id": "92d6",
       "title": "Watch lectures from CS50x",
-      "done": false
+      "done": true
     },
     {
       "id": "82d1",
@@ -19,6 +19,11 @@
       "id": "118f",
       "title": "Submit Todos assignment",
       "done": false
+    },
+    {
+      "id": "6cf0",
+      "title": "Run",
+      "done": true
     }
   ]
 }

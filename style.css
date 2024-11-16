@@ -1,10 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Arial;
+}
+body {
+  padding-left: 2rem;
+}
 #todos-list {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  font-weight: normal;
+  margin-bottom: 3rem;
 
-    li {
-        display: inline-block;
-        cursor: pointer;
+  li {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .btn-delete {
+    border: 0;
+    background-color: white;
+  }
+}
+div.container {
+  padding-left: 0;
+  margin-left: 0;
+}
+.container {
+  display: flex;
+
+  form {
+    margin-left: 0;
+    border: 0.1rem solid;
+    border-radius: 0.2rem;
+    padding: 1rem;
+  }
+  #form-input-add {
+    border: 0.1rem solid;
+    border-radius: 0.2rem;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    #btn-add {
+      border: 0.1rem solid;
+      border-radius: 0.2rem;
+      padding: 0.5rem;
     }
+  }
 }
